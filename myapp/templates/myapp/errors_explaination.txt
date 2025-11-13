@@ -1,0 +1,17 @@
+=> CSRF - token : add {% csrf_token %} after each form tag
+
+=> The view myapp.views.login did not return an HttpResponse object. it return none instead.
+
+    make sure your view return render specific html file.
+
+    check each and every if and else block.
+
+=> MultiValueDictKeyError:
+
+    we have different name in form and our views.
+
+=> DoesNotExist at /login
+
+    user matching query does not exist.
+
+    your python value does not exist in models field.
